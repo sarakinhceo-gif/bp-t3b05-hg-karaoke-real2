@@ -23,62 +23,86 @@
     <meta name="twitter:image" content="https://t3b05-hg-karaoke-real2.vercel.app/twitter-image-raw.jpg">
 
     <!-- JSON-LD Schema (LocalBusiness) -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "화곡 가라오케 찐후기",
+  "alternateName": "화곡동 스트리트 브루탈리스트 가라오케",
+  "description": "화곡동의 대표적인 언더그라운드 감성 가라오케. Street Brutalist 디자인, 프리미엄 사운드 시스템, 프라이빗 룸",
+  "url": "https://hwagok-song-review.link-hub.org/",
+  "telephone": "+82-10-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "서울특별시 강서구 화곡동",
+    "addressLocality": "서울특별시",
+    "addressRegion": "강서구",
+    "addressCountry": "KR"
+  },
+  "priceRange": "₩₩",
+  "openingHoursSpecification": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "화곡 가라오케 찐후기",
-        "alternateName": "화곡동 스트리트 브루탈리스트 가라오케",
-        "description": "화곡동의 대표적인 언더그라운드 감성 가라오케. Street Brutalist 디자인, 프리미엄 사운드 시스템, 프라이빗 룸",
-        "url": "https://t3b05-hg-karaoke-real2.vercel.app/",
-        "telephone": "+82-10-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "서울특별시 강서구 화곡동",
-            "addressLocality": "서울특별시",
-            "addressRegion": "강서구",
-            "addressCountry": "KR"
-        },
-        "priceRange": "₩₩",
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-                "opens": "18:00",
-                "closes": "06:00"
-            }
-        ],
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "bestRating": "5",
-            "ratingCount": "247"
-        },
-        "review": [
-            {
-                "@type": "Review",
-                "author": {"@type": "Person", "name": "철수킹"},
-                "datePublished": "2025-03-18",
-                "reviewBody": "진짜 화곡에서 제일 분위기 미쳤음. 사운드가 압도적이라 목이 터져도 계속 부르고 싶게 만듦.",
-                "reviewRating": {"@type": "Rating", "ratingValue": "5"}
-            },
-            {
-                "@type": "Review",
-                "author": {"@type": "Person", "name": "윤스타"},
-                "datePublished": "2025-03-10",
-                "reviewBody": "브루탈리스트 인테리어가 실제로 보면 더 강렬함. 콘크리트+주황 포인트 조합이 미쳤어요. 다음날 목 아파도 또 가고 싶은 곳.",
-                "reviewRating": {"@type": "Rating", "ratingValue": "5"}
-            },
-            {
-                "@type": "Review",
-                "author": {"@type": "Person", "name": "hj_karaoke"},
-                "datePublished": "2025-02-28",
-                "reviewBody": "여기 찐후기 맞음. 다른 데랑 차원이 다른 사운드 시스템. 마이크 잡음 1도 없고 룸 안에서 라이브 하는 기분.",
-                "reviewRating": {"@type": "Rating", "ratingValue": "5"}
-            }
-        ]
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "18:00",
+      "closes": "06:00"
     }
-    </script>
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "bestRating": "5",
+    "ratingCount": "247"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "철수킹"
+      },
+      "datePublished": "2025-03-18",
+      "reviewBody": "진짜 화곡에서 제일 분위기 미쳤음. 사운드가 압도적이라 목이 터져도 계속 부르고 싶게 만듦.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "윤스타"
+      },
+      "datePublished": "2025-03-10",
+      "reviewBody": "브루탈리스트 인테리어가 실제로 보면 더 강렬함. 콘크리트+주황 포인트 조합이 미쳤어요. 다음날 목 아파도 또 가고 싶은 곳.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "hj_karaoke"
+      },
+      "datePublished": "2025-02-28",
+      "reviewBody": "여기 찐후기 맞음. 다른 데랑 차원이 다른 사운드 시스템. 마이크 잡음 1도 없고 룸 안에서 라이브 하는 기분.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      }
+    }
+  ]
+}</script>
 
     <style>
         /* ===== RESET & BASE ===== */
